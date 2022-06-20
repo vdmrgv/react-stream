@@ -1,18 +1,47 @@
-### `docker-compose run` up `redis` container
+# react-stream
 
-### `api` folder
+This is a real-time subscription management test project written in React/Node with Socket.io and Redis.
 
-`yarn build && yarn start` to run server.
+### Backend
 
-### `web` folder
+1. Up Redis container via:
 
-`yarn start` to runs the app.
+```bash
+  docker-compose run
+```
+
+2. Go to `api` folder and install dependencies:
+
+```bash
+  yarn install
+```
+
+3. Run server:
+
+```bash
+  yarn build && yarn start
+```
+
+### Frontend
+
+1. Go to `web` folder and install dependencies:
+
+```bash
+  yarn install
+```
+
+3. Run application:
+
+```bash
+  yarn start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Tests
 
-`yarn test`
+Both parts include tests, you can run them with:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  yarn test
+```
