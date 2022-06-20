@@ -30,7 +30,7 @@ This is a real-time subscription management test project written in React/Node w
   yarn install
 ```
 
-3. Run application:
+2. Run application:
 
 ```bash
   yarn start
