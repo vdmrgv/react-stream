@@ -4,16 +4,16 @@ This is a real-time subscription management test project written in React/Node w
 
 ### Backend
 
-1. Up Redis container via:
-
-```bash
-  docker-compose run
-```
-
-2. Go to `api` folder and install dependencies:
+1. Go to `api` folder and install dependencies:
 
 ```bash
   yarn install
+```
+
+2. Up Redis container via:
+
+```bash
+  docker-compose run
 ```
 
 3. Run server:

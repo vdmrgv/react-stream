@@ -10,6 +10,7 @@
 /web/coverage
 
 # production
+/api/dist
 /web/build
 
 # misc
